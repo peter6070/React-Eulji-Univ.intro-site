@@ -1,40 +1,4 @@
 import styled from "styled-components";
-//       #schedule-wrapper {
-//         margin: 0 auto;
-//         background-color: white;
-//       }
-//       #schedule-html-header {
-//         background-color: #000000;
-//         color: white;
-//         text-align: center;
-//       }
-//       #schedule-html-header > h1 {
-//         font-size: 30px;
-//         margin-top: 10px;
-//         margin-bottom: 10px;
-//         text-align: c enter;
-//       }
-//       Table {
-//         border-collapse: collapse;
-//         width: 90%;
-//         margin: 0 auto;
-//       }
-//       Th,
-//       Td {
-//         border-bottom: 1px solid #ccc;
-//         padding: 0.5rem;
-//         text-align: center;
-//       }
-//       Th {
-//         background-color: #000000;
-//         color: white;
-//       }
-//       Tr:nth-child(odd) {
-//         background-color: #f2f2f2;
-//       }
-//       Tr:nth-child(even) {
-//         background-color: white;
-//       }
 
 const ScheduleWrapper = styled.div`
   margin: 0 auto;
@@ -44,12 +8,12 @@ const ScheduleHeader = styled.header`
   background-color: #000000;
   color: white;
   text-align: center;
-`;
-const H1 = styled.h1`
-  font-size: 30px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  text-align: c enter;
+  & > h1 {
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: c enter;
+  }
 `;
 const Table = styled.table`
   border-collapse: collapse;
@@ -67,6 +31,7 @@ const Td = styled.td`
   border-bottom: 1px solid #ccc;
   padding: 0.5rem;
   text-align: center;
+  font-size: 18px;
 `;
 const Tr = styled.tr`
   &:nth-child(odd) {
@@ -81,7 +46,7 @@ function schedule() {
   return (
     <ScheduleWrapper>
       <ScheduleHeader>
-        <H1>을지대학교 소개</H1>
+        <h1>학사 일정</h1>
       </ScheduleHeader>
       <Table>
         <thead>

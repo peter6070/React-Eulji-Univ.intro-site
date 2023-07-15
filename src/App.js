@@ -1,6 +1,6 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect } from "react";
 import "./App.css";
-import styled from "styled-components";
+// import styled from "styled-components";
 import Introduction from "./contents/introduction";
 import Schedule from "./contents/schedule";
 import Club from "./contents/club";
@@ -29,7 +29,10 @@ function App() {
         <header>
           <div id="logo">
             <a href="https://www.eulji.ac.kr/">
-              <img src="https://www.eulji.ac.kr/univ/images/common/logo.png" />
+              <img
+                src="https://www.eulji.ac.kr/univ/images/common/logo.png"
+                alt="eulji-logo"
+              />
             </a>
           </div>
           <h1 id="title">을지대학교 소개 사이트</h1>
