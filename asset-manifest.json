@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/peter6070/React-Eulji-Univ.intro-site/static/css/main.c9870432.css",
-    "main.js": "/peter6070/React-Eulji-Univ.intro-site/static/js/main.8dac106c.js",
+    "main.js": "/peter6070/React-Eulji-Univ.intro-site/static/js/main.bf493654.js",
     "static/js/787.0aa683c6.chunk.js": "/peter6070/React-Eulji-Univ.intro-site/static/js/787.0aa683c6.chunk.js",
     "index.html": "/peter6070/React-Eulji-Univ.intro-site/index.html",
     "main.c9870432.css.map": "/peter6070/React-Eulji-Univ.intro-site/static/css/main.c9870432.css.map",
-    "main.8dac106c.js.map": "/peter6070/React-Eulji-Univ.intro-site/static/js/main.8dac106c.js.map",
+    "main.bf493654.js.map": "/peter6070/React-Eulji-Univ.intro-site/static/js/main.bf493654.js.map",
     "787.0aa683c6.chunk.js.map": "/peter6070/React-Eulji-Univ.intro-site/static/js/787.0aa683c6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c9870432.css",
-    "static/js/main.8dac106c.js"
+    "static/js/main.bf493654.js"
   ]
 }
