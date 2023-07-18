@@ -4,17 +4,14 @@ const IntroWrapper = styled.div`
   margin: 0 auto;
   background-color: white;
   & > p {
-    font-size: 18px;
+    font-size: 1.2vw;
     margin: 10px 0;
     line-height: 1.5;
     text-align: justify;
     padding: 0 2rem;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
   }
   & > h2 {
-    font-size: 24px;
+    font-size: 1.7vw;
     margin-top: 25px;
     margin-bottom: 8px;
     text-align: center;

@@ -10,6 +10,7 @@ const RoadWrapper = styled.div`
     &  li {
       list-style-type: none;
       height: 2.5rem;
+      font-size: 1.3vw;
       &::before {
         content: "↠";
         width: 1.5rem;

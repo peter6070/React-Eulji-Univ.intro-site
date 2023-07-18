@@ -6,22 +6,12 @@ import Schedule from "./contents/schedule";
 import Club from "./contents/club";
 import Road from "./contents/road";
 
-//마우스 내릴 시 1초간 이벤트 무시하면서 페이지 하나씩 내리기
-
 function App() {
   //title 설정
   useEffect(() => {
     const titleElement = document.getElementsByTagName("title")[0];
     titleElement.innerHTML = "!! Welcome Eulji !!";
   }, []);
-
-  // const [contents, setContents] = useState([
-  //   "#intro",
-  //   "#schedule",
-  //   "#club",
-  //   "#road",
-  // ]);
-  // console.log(setContents());
 
   return (
     <div className="App">
